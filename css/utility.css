@@ -1,0 +1,61 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: center;
+}
+.align-items{
+    align-items: center;
+}
+
+.bg-blk{
+    background-color: black;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.m1{
+    margin: 5px;
+}
+
+.p1{
+    padding: 10px   ;
+}
+
+/* For Webkit Browsers (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+    background-color: #333; /* background color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* color of the scrollbar thumb */
+    border-radius: 5px; /* roundness of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888; /* color of the scrollbar thumb on hover */
+}
+
+/* For Firefox */
+/* Note: Firefox does not currently support styling the scrollbar */
+
+/* For Internet Explorer */
+/* Note: Internet Explorer does not currently support styling the scrollbar */
